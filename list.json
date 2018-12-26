@@ -1,0 +1,518 @@
+[
+    {
+      "code": "gv01",
+      "name": "arma3",
+      "server": "arma3server",
+      "games": "ARMA 3"
+    },
+    {
+      "code": "gv02",
+      "name": "sdtd",
+      "server": "sdtdserver",
+      "games": "7 Days to Die"
+    },
+    {
+      "code": "gv03",
+      "name": "ark",
+      "server": "arkserver",
+      "games": "ARK: Survival Evolved"
+    },
+    {
+      "code": "gv04",
+      "name": "bo",
+      "server": "boserver",
+      "games": "Ballistic Overkill"
+    },
+    {
+      "code": "gv05",
+      "name": "bf1942",
+      "server": "bf1942server",
+      "games": "Battlefield 1942"
+    },
+    {
+      "code": "gv06",
+      "name": "bd",
+      "server": "bdserver",
+      "games": "Base Defense"
+    },
+    {
+      "code": "gv07",
+      "name": "bmdm",
+      "server": "bmdmserver",
+      "games": "Black Mesa: Deathmatch"
+    },
+    {
+      "code": "gv08",
+      "name": "bs",
+      "server": "bsserver",
+      "games": "Blade Symphony"
+    },
+    {
+      "code": "gv09",
+      "name": "bb",
+      "server": "bbserver",
+      "games": "BrainBread"
+    },
+    {
+      "code": "gv10",
+      "name": "bb2",
+      "server": "bb2server",
+      "games": "BrainBread 2"
+    },
+    {
+      "code": "gv11",
+      "name": "bt1944",
+      "server": "bt1944server",
+      "games": "Battalion 1944"
+    },
+    {
+      "code": "gv12",
+      "name": "cod",
+      "server": "codserver",
+      "games": "Call of Duty"
+    },
+    {
+      "code": "gv13",
+      "name": "cod2",
+      "server": "cod2server",
+      "games": "Call of Duty 2"
+    },
+    {
+      "code": "gv14",
+      "name": "cod4",
+      "server": "cod4server",
+      "games": "Call of Duty 4"
+    },
+    {
+      "code": "gv15",
+      "name": "coduo",
+      "server": "coduoserver",
+      "games": "Call of Duty: United Offensive"
+    },
+    {
+      "code": "gv16",
+      "name": "codwaw",
+      "server": "codwawserver",
+      "games": "Call of Duty: World at War"
+    },
+    {
+      "code": "gv17",
+      "name": "cc",
+      "server": "ccserver",
+      "games": "Codename CURE"
+    },
+    {
+      "code": "gv18",
+      "name": "cs",
+      "server": "csserver",
+      "games": "Counter-Strike 1.6"
+    },
+    {
+      "code": "gv19",
+      "name": "cscz",
+      "server": "csczserver",
+      "games": "Counter-Strike: Condition Zero"
+    },
+    {
+      "code": "gv20",
+      "name": "csgo",
+      "server": "csgoserver",
+      "games": "Counter-Strike: Global Offensive"
+    },
+    {
+      "code": "gv21",
+      "name": "css",
+      "server": "cssserver",
+      "games": "Counter-Strike: Source"
+    },
+    {
+      "code": "gv22",
+      "name": "dod",
+      "server": "dodserver",
+      "games": "Day of Defeat"
+    },
+    {
+      "code": "gv23",
+      "name": "dods",
+      "server": "dodsserver",
+      "games": "Day of Defeat: Source"
+    },
+    {
+      "code": "gv24",
+      "name": "doi",
+      "server": "doiserver",
+      "games": "Day of Infamy"
+    },
+    {
+      "code": "gv25",
+      "name": "dmc",
+      "server": "dmcserver",
+      "games": "Deathmatch Classic"
+    },
+    {
+      "code": "gv26",
+      "name": "dst",
+      "server": "dstserver",
+      "games": "Don't Starve Together"
+    },
+    {
+      "code": "gv27",
+      "name": "dab",
+      "server": "dabserver",
+      "games": "Double Action: Boogaloo"
+    },
+    {
+      "code": "gv28",
+      "name": "eco",
+      "server": "ecoserver",
+      "games": "Eco"
+    },
+    {
+      "code": "gv29",
+      "name": "em",
+      "server": "emserver",
+      "games": "Empires Mod"
+    },
+    {
+      "code": "gv30",
+      "name": "fctr",
+      "server": "fctrserver",
+      "games": "Factorio"
+    },
+    {
+      "code": "gv31",
+      "name": "fof",
+      "server": "fofserver",
+      "games": "Fistful of Frags"
+    },
+    {
+      "code": "gv32",
+      "name": "gmod",
+      "server": "gmodserver",
+      "games": "Garrys Mod"
+    },
+    {
+      "code": "gv33",
+      "name": "ges",
+      "server": "gesserver",
+      "games": "GoldenEye: Source"
+    },
+    {
+      "code": "gv34",
+      "name": "hl2dm",
+      "server": "hl2dmserver",
+      "games": "Half-Life 2: Deathmatch"
+    },
+    {
+      "code": "gv35",
+      "name": "hldms",
+      "server": "hldmsserver",
+      "games": "Half-Life Deathmatch: Source"
+    },
+    {
+      "code": "gv36",
+      "name": "hldm",
+      "server": "hldmserver",
+      "games": "Half-Life: Deathmatch"
+    },
+    {
+      "code": "gv37",
+      "name": "hw",
+      "server": "hwserver",
+      "games": "Hurtworld"
+    },
+    {
+      "code": "gv38",
+      "name": "ins",
+      "server": "insserver",
+      "games": "Insurgency"
+    },
+    {
+      "code": "gv39",
+      "name": "inss",
+      "server": "inssserver",
+      "games": "Insurgency: Sandstorm"
+    },
+    {
+      "code": "gv40",
+      "name": "jc2",
+      "server": "jc2server",
+      "games": "Just Cause 2"
+    },
+    {
+      "code": "gv41",
+      "name": "jc3",
+      "server": "jc3server",
+      "games": "Just Cause 3"
+    },
+    {
+      "code": "gv42",
+      "name": "kf",
+      "server": "kfserver",
+      "games": "Killing Floor"
+    },
+    {
+      "code": "gv43",
+      "name": "kf2",
+      "server": "kf2server",
+      "games": "Killing Floor 2"
+    },
+    {
+      "code": "gv44",
+      "name": "l4d",
+      "server": "l4dserver",
+      "games": "Left 4 Dead"
+    },
+    {
+      "code": "gv45",
+      "name": "l4d2",
+      "server": "l4d2server",
+      "games": "Left 4 Dead 2"
+    },
+    {
+      "code": "gv46",
+      "name": "mc",
+      "server": "mcserver",
+      "games": "Minecraft"
+    },
+    {
+      "code": "gv47",
+      "name": "mta",
+      "server": "mtaserver",
+      "games": "Multi Theft Auto"
+    },
+    {
+      "code": "gv48",
+      "name": "mumble",
+      "server": "mumbleserver",
+      "games": "Mumble"
+    },
+    {
+      "code": "gv49",
+      "name": "nmrih",
+      "server": "nmrihserver",
+      "games": "No More Room in Hell"
+    },
+    {
+      "code": "gv50",
+      "name": "ns",
+      "server": "nsserver",
+      "games": "Natural Selection"
+    },
+    {
+      "code": "gv51",
+      "name": "ns2",
+      "server": "ns2server",
+      "games": "Natural Selection 2"
+    },
+    {
+      "code": "gv52",
+      "name": "ns2c",
+      "server": "ns2cserver",
+      "games": "NS2: Combat"
+    },
+    {
+      "code": "gv53",
+      "name": "opfor",
+      "server": "opforserver",
+      "games": "Opposing Force"
+    },
+    {
+      "code": "gv54",
+      "name": "pstbs",
+      "server": "pstbsserver",
+      "games": "Post Scriptum: The Bloody Seventh"
+    },
+    {
+      "code": "gv55",
+      "name": "pvkii",
+      "server": "pvkiiserver",
+      "games": "Pirates Vikings & Knights II"
+    },
+    {
+      "code": "gv56",
+      "name": "pc",
+      "server": "pcserver",
+      "games": "Project Cars"
+    },
+    {
+      "code": "gv57",
+      "name": "pz",
+      "server": "pzserver",
+      "games": "Project Zomboid"
+    },
+    {
+      "code": "gv58",
+      "name": "q2",
+      "server": "q2server",
+      "games": "Quake 2"
+    },
+    {
+      "code": "gv59",
+      "name": "q3",
+      "server": "q3server",
+      "games": "Quake 3: Arena"
+    },
+    {
+      "code": "gv60",
+      "name": "ql",
+      "server": "qlserver",
+      "games": "Quake Live"
+    },
+    {
+      "code": "gv61",
+      "name": "qw",
+      "server": "qwserver",
+      "games": "Quake World"
+    },
+    {
+      "code": "gv62",
+      "name": "ro",
+      "server": "roserver",
+      "games": "Red Orchestra: Ostfront 41-45"
+    },
+    {
+      "code": "gv63",
+      "name": "ricochet",
+      "server": "ricochetserver",
+      "games": "Ricochet"
+    },
+    {
+      "code": "gv64",
+      "name": "rust",
+      "server": "rustserver",
+      "games": "Rust"
+    },
+    {
+      "code": "gv65",
+      "name": "rw",
+      "server": "rwserver",
+      "games": "Rising World"
+    },
+    {
+      "code": "gv66",
+      "name": "samp",
+      "server": "sampserver",
+      "games": "San Andreas Multiplayer"
+    },
+    {
+      "code": "gv67",
+      "name": "sbots",
+      "server": "sbotsserver",
+      "games": "StickyBots"
+    },
+    {
+      "code": "gv68",
+      "name": "ss3",
+      "server": "ss3server",
+      "games": "Serious Sam 3: BFE"
+    },
+    {
+      "code": "gv69",
+      "name": "sb",
+      "server": "sbserver",
+      "games": "Starbound"
+    },
+    {
+      "code": "gv70",
+      "name": "st",
+      "server": "stserver",
+      "games": "Stationeers"
+    },
+    {
+      "code": "gv71",
+      "name": "squad",
+      "server": "squadserver",
+      "games": "Squad"
+    },
+    {
+      "code": "gv72",
+      "name": "sven",
+      "server": "svenserver",
+      "games": "Sven Co-op"
+    },
+    {
+      "code": "gv73",
+      "name": "tf2",
+      "server": "tf2server",
+      "games": "Team Fortress 2"
+    },
+    {
+      "code": "gv74",
+      "name": "tfc",
+      "server": "tfcserver",
+      "games": "Team Fortress Classic"
+    },
+    {
+      "code": "gv75",
+      "name": "ts3",
+      "server": "ts3server",
+      "games": "Teamspeak 3"
+    },
+    {
+      "code": "gv76",
+      "name": "tw",
+      "server": "twserver",
+      "games": "Teeworlds"
+    },
+    {
+      "code": "gv77",
+      "name": "terraria",
+      "server": "terrariaserver",
+      "games": "Terraria"
+    },
+    {
+      "code": "gv78",
+      "name": "tu",
+      "server": "tuserver",
+      "games": "Tower Unite"
+    },
+    {
+      "code": "gv79",
+      "name": "ut2k4",
+      "server": "ut2k4server",
+      "games": "Unreal Tournament 2004"
+    },
+    {
+      "code": "gv80",
+      "name": "ut3",
+      "server": "ut3server",
+      "games": "Unreal Tournament 3"
+    },
+    {
+      "code": "gv81",
+      "name": "ut99",
+      "server": "ut99server",
+      "games": "Unreal Tournament 99"
+    },
+    {
+      "code": "gv82",
+      "name": "vs",
+      "server": "vsserver",
+      "games": "Vampire Slayer"
+    },
+    {
+      "code": "gv83",
+      "name": "wet",
+      "server": "wetserver",
+      "games": "Wolfenstein: Enemy Territory"
+    },
+    {
+      "code": "gv84",
+      "name": "wurm",
+      "server": "wurmserver",
+      "games": "Wurm Unlimited"
+    },
+    {
+      "code": "gv85",
+      "name": "etl",
+      "server": "etlserver",
+      "games": "ET: Legacy"
+    },
+    {
+      "code": "gv86",
+      "name": "zps",
+      "server": "zpsserver",
+      "games": "Zombie Panic! Source"
+    }
+  ]

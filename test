@@ -1,0 +1,110 @@
+#!/usr/bin/env bash
+# sed -i 's/\r$//' install.sh
+#warna
+
+
+cyan='\e[0;36m'
+white='\e[1;37m'
+red='\e[0;31m'
+yellow='\e[0;33m'
+BlueF='\e[1;34m' #Biru
+RESETs="\033[00m" #normal
+RESET='\e[0;36m' #Biru
+orange='\e[38;5;166m'
+
+function serverlist(){
+    echo ""
+    echo -e $cyan "                CODE    GAMES"
+    echo -e $RESETs
+    cat list.json | jq -r '.['$1':'$2'][] | "                 (\(.code))  \(.games)"'
+    echo ""
+    echo "                 (back)  Back"
+    echo ""
+    echo -e $cyan   "==========================================================="
+
+}
+
+
+
+function menu_1(){
+    echo ""
+    echo -e $white  " ██████╗  █████╗ ██╗   ██╗███████╗██████╗  ██████╗ ███████╗"
+    echo -e $white  "██╔════╝ ██╔══██╗██║   ██║██╔════╝██╔══██╗██╔═══██╗██╔════╝"
+    echo -e $white  "██║  ███╗███████║██║   ██║█████╗  ██████╔╝██║   ██║███████╗"
+    echo -e $white  "██║   ██║██╔══██║╚██╗ ██╔╝██╔══╝  ██╔══██╗██║   ██║╚════██║"
+    echo -e $white  "╚██████╔╝██║  ██║ ╚████╔╝ ███████╗██║  ██║╚██████╔╝███████║"
+    echo -e $white  " ╚═════╝ ╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝"
+    echo -e $cyan   "==========================================================="
+    echo -e $cyan   "                        Gaveros V1.0                       "
+    echo -e $cyan   "             Create Servers & Fun with Friend's            "
+    echo -e $cyan   "==========================================================="
+    echo -e $cyan   "             Option  "
+    echo -e $RESETs "                 (1) List Games :   1 - 10 "
+    echo -e $RESETs "                 (2) List Games :  11 - 20 "
+    echo -e $RESETs "                 (3) List Games :  21 - 30 "
+    echo -e $RESETs "                 (4) List Games :  31 - 40 "
+    echo -e $RESETs "                 (5) List Games :  41 - 50 "
+    echo -e $RESETs "                 (6) List Games :  51 - 60 "
+    echo -e $RESETs "                 (7) List Games :  61 - 70 "
+    echo -e $RESETs "                 (8) List Games :  71 - 80 "
+    echo -e $RESETs "                 (9) List Games :  81 - 86 "
+    echo -e $RESETs "                 (0) Exit "
+    echo -e $cyan   "==========================================================="
+    
+}
+
+choice_1=99
+
+while [ $choice_1 -ne 0 ]
+do
+    commans=$(cat list.json | jq -r '.[] | select(.code=="'$codeg'") | .server')
+    if [ $codeg == "back" ]
+    then
+        menu_1
+        echo -ne $orange "input your choice : "
+        read choice_1
+    elif [ -n "$commans" ]
+    then
+        `bash linuxgsm.sh $commans`
+        echo "   please run : ./$commans install"
+        exit
+    else
+        menu_1
+        echo -ne $orange "input your choice : "
+        read choice_1
+    fi
+    case "$choice_1" in
+            1)
+                serverlist 0 9
+                ;;
+            2)
+                serverlist 10 19
+                ;;
+            3)
+                serverlist 20 29
+                ;;
+            4)
+                serverlist 30 39
+                ;;
+            5)
+                serverlist 40 49
+                ;;
+            6)
+                serverlist 50 59
+                ;;
+            7)
+                serverlist 60 69
+                ;;
+            8)
+                serverlist 70 79
+                ;;
+            9)
+                serverlist 80 86
+                ;;
+            0)
+                exit 
+                ;;
+    esac
+    echo -ne $orange "input code games : "
+    read codeg
+done
